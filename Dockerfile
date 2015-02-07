@@ -1,3 +1,7 @@
+#
+# 1Science Alpine Linux image
+#
+
 FROM       scratch
 MAINTAINER 1science Devops Team <devops@1science.org>
 
