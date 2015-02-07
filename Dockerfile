@@ -1,5 +1,5 @@
 FROM       scratch
-MAINTAINER Luis Lavena <luislavena@gmail.com>
+MAINTAINER 1science Devops Team <devops@1science.org>
 
 ADD ./rootfs.tar.xz /
 
