@@ -1,4 +1,4 @@
-# onescience/alpine : Base Docker image based on Alpine Linux
+# Base Docker image based on Alpine Linux
 
 A minimal, busybox-like container (~ 9MB) based on [Alpine Linux](http://alpinelinux.org/),
 that contains [apk](http://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management)
