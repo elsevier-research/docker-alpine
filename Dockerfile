@@ -1,5 +1,5 @@
 #
-# 1Science Alpine Linux image
+# 1science Alpine Linux image
 #
 
 FROM       scratch

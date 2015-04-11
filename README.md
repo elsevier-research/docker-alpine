@@ -23,7 +23,7 @@ To get you started, a set of packages have been integrated:
 Use this as base for your own containers:
 
 ```dockerfile
-FROM onescience/alpine
+FROM 1science/alpine
 RUN apk-install <pakckagename>
 
 CMD ["/bin/sh"]
@@ -32,7 +32,7 @@ CMD ["/bin/sh"]
 or run it directly : 
 
 ```
-docker run -ti onescience/alpine
+docker run -ti 1science/alpine
 ```
 
 And install or extend with packages as you please.

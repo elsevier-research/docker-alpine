@@ -1,5 +1,5 @@
 build: Dockerfile
-	docker build -t onescience/alpine .
+	docker build -t 1science/alpine .
 
 tag:
-	docker tag onescience/alpine onescience/alpine
+	docker tag 1science/alpine 1science/alpine
