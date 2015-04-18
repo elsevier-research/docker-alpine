@@ -2,10 +2,9 @@
 # 1science Alpine Linux image
 #
 
-FROM       scratch
+FROM alpine:3.1
 MAINTAINER 1science Devops Team <devops@1science.org>
 
-ADD ./rootfs.tar.xz /
 ADD ./root /
 
 RUN apk update && apk upgrade && \
