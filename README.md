@@ -20,7 +20,7 @@ To get you started, a set of packages have been integrated:
 - tree
 
 
-# Versions supported
+# Supported tags
 
 -	[`3.1`, `latest`](https://github.com/1science/docker-alpine/tree/3.1)
 
