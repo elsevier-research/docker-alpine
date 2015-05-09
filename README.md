@@ -7,7 +7,7 @@
 This image is based on the official [Alpine Linux](https://registry.hub.docker.com/u/library/alpine/) and has access to a [package repository](http://forum.alpinelinux.org/packages) that is much more complete than other BusyBox based images. 
 This makes Alpine Linux a great image base for utilities and even production applications. [Read more about Alpine Linux here](https://www.alpinelinux.org/about/) and you can see how their mantra fits in right at home with Docker images.
 
-The image size is approximately 13 MB.
+The image size is approximately 9 MB.
 
 # Included packages
 
