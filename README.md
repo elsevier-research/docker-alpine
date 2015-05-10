@@ -7,7 +7,7 @@
 This image is based on the official [Alpine Linux](https://registry.hub.docker.com/u/library/alpine/) and has access to a [package repository](http://forum.alpinelinux.org/packages) that is much more complete than other BusyBox based images. 
 This makes Alpine Linux a great image base for utilities and even production applications. [Read more about Alpine Linux here](https://www.alpinelinux.org/about/) and you can see how their mantra fits in right at home with Docker images.
 
-The image size is approximately 9 MB.
+The image size is approximately 10 MB.
 
 # Included packages
 
@@ -18,19 +18,20 @@ To get you started, a set of packages have been integrated:
 - ca-certificates
 - bash
 - tree
+- [s6](http://blog.tutum.co/2014/12/02/docker-and-s6-my-new-favorite-process-supervisor/)
 
 
 # Supported tags
 
--	[`3.1`, `latest`](https://github.com/1science/docker-alpine/tree/3.1)
+-	[`3.1`](https://github.com/1science/docker-alpine/tree/3.1)
 
 # Usage
 
 Use this as base for your own containers:
 
-```dockerfile
+```
 FROM 1science/alpine
-RUN apk-install <pakckagename>
+RUN apk-install <package_name>
 
 CMD ["/bin/bash"]
 ```
