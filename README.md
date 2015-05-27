@@ -1,4 +1,6 @@
-# What is Alpine Linux?
+[![](https://badge.imagelayers.io/1science/alpine:latest.svg)](https://imagelayers.io/?images=1science/alpine:latest 'Get your own badge on imagelayers.io')
+
+# What is Alpine Linux? 
 
 ![logo](https://raw.githubusercontent.com/1science/docker-alpine/latest/logo.png)
 
@@ -6,8 +8,6 @@
 
 This image is based on the official [Alpine Linux](https://registry.hub.docker.com/u/library/alpine/) and has access to a [package repository](http://pkgs.alpinelinux.org/packages) that is much more complete than other BusyBox based images. 
 This makes Alpine Linux a great image base for utilities and even production applications. [Read more about Alpine Linux here](https://www.alpinelinux.org/about/) and you can see how their mantra fits in right at home with Docker images.
-
-The image size is approximately 10 MB.
 
 # Included packages
 
