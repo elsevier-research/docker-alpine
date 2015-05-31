@@ -23,6 +23,7 @@ To get you started, a set of packages have been integrated:
 
 # Supported tags
 
+-	[`3.2`](https://github.com/1science/docker-alpine/tree/3.2)
 -	[`3.1`](https://github.com/1science/docker-alpine/tree/3.1)
 
 # Usage
