@@ -14,7 +14,7 @@ ADD ./root /
 
 # Install base packages
 RUN apk update && apk upgrade && \
-    apk-install curl wget bash tree && \
+    apk-install curl wget bash tree gawk && \
     echo -ne "Alpine Linux 3.1 image. (`uname -rsv`)\n" >> /root/.built
 
 # Define bash as default command
