@@ -21,7 +21,7 @@ RUN mkdir -p /var/spool/cron/crontabs /usr/local/sbin && \
     curl -Ls https://github.com/hashicorp/consul-template/releases/download/v${CONSUL_TEMPLATE_VERSION}/consul_template_${CONSUL_TEMPLATE_VERSION}_linux_amd64.zip -o consul-template.zip && unzip consul-template.zip -d /usr/local/sbin && \
     curl -Ls http://dl.bintray.com/foostan/fileconsul/${FILECONSUL_VERSION}_linux_amd64.zip -o fileconsul.zip && unzip fileconsul.zip -d /usr/local/sbin && \ 
     rm -f fileconsul.zip consul-template* && \
-    echo -ne "Alpine Linux 3.1 image. (`uname -rsv`)\n" >> /root/.built
+    echo -ne "Alpine Linux 3.2 image. (`uname -rsv`)\n" >> /root/.built
 
 # Define bash as default command
 CMD ["/bin/bash"]
