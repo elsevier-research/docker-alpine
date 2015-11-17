@@ -19,11 +19,6 @@ To get you started, a set of packages have been integrated:
 - bash
 - tree
 
-
-# Supported tags
-
--	[`3.1`](https://github.com/1science/docker-alpine/tree/3.1)
-
 # Usage
 
 Use this as base for your own containers:
@@ -41,6 +36,11 @@ or run it directly :
 docker run -ti 1science/alpine
 ```
 
+# Build
+
+This project is configured as an [automated build in Dockerhub](https://hub.docker.com/r/1science/alpine/). 
+
+Each branch give the related image tag.  
 
 # License
 
